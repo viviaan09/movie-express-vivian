@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const database = async () => {
     try {
-        console.log('koneksi ke database...');
+        console.log('melakukan koneksi ke mongoDB...');
 
         const response = await mongoose.connect("mongodb://127.0.0.1:27017/movies?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8")
         console.log('koneksi ke database berhasil');
@@ -12,3 +12,5 @@ const database = async () => {
         process.exit(1);
     }
 };
+
+export default database;
