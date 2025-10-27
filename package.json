@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev" : "nodemon app.js"
 
@@ -11,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/viviaan09/movie-express-vivian.git"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
