@@ -28,5 +28,5 @@ const movieSchema = new mongoose.Schema(
     }
 );
 
-const MovieModel = mongoose.model('Movies', MovieSchema);
-export default MovieModel;
+const movieModel = mongoose.model('Movies', movieSchema);
+export default movieModel;
