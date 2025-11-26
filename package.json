@@ -19,10 +19,7 @@
   },
   "homepage": "https://github.com/viviaan09/movie-express-vivian#readme",
   "dependencies": {
-<<<<<<< HEAD
     "bcrypt": "^6.0.0",
-=======
->>>>>>> cd23ae1e4cd4a73822fec8a7f79f8af07888f821
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
